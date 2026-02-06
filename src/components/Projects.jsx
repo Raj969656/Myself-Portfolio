@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Awaze-e-janta",
     desc: "A full-featured online automatic application management, user authentication, and complaint tracking system.",
-    image: "/public/pp1.png",
+    image: "/pp1.png",
     tech: ["React", "Node.js", "MongoDB", "Express.js"],
     demo: "https://awaze-e-janta.vercel.app",
     github: "https://github.com/Rajveer9554/Awaze-E-Janta",
@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Linksy",
     desc: "A productivity application with URL shortening functionality and real-time updates.",
-    image: "/public/pp2.png",
+    image: "/pp2.png",
     tech: ["React.js", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
     demo: "https://linksy-frontend-zeta.vercel.app",
     github: "https://github.com/Raj969656/Linksy_frontend",
@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Expense Tracker",
     desc: "A mobile app for tracking money, expenses, and management.",
-    image: "public/pp3.png",
+    image: "/pp3.png",
     tech: ["React", "GraphQL", "MySQL", "Chart.js"],
     demo: "https://sweet-duckanoo-b3b3dc.netlify.app/",
     github: "https://github.com/Raj969656/BudgetBuddy",
@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Portfolio Website",
     desc: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: "/public/pp4.png",
+    image: "/pp4.png",
     tech: ["React.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     demo: "https://raj969656.github.io/My-Portfolio",
     github: "https://github.com/raj969656/My-Portfolio",
@@ -34,7 +34,7 @@ const projects = [
   {
     title: "Chat App",
     desc: "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: "/public/pp5.png",
+    image: "/pp5.png",
     tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
     demo: "https://chat-app.vercel.app",
     github: "https://github.com/raj969656/chat-app",
@@ -42,7 +42,7 @@ const projects = [
   {
     title: "AI Image Generator",
     desc: "Generate images using AI prompts powered by OpenAI and Cloudinary.",
-    image: "/public/pp6.png",
+    image: "/pp6.png",
     tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
     demo: "https://ai-image-generator.vercel.app",
     github: "https://github.com/raj969656/ai-image-generator",
