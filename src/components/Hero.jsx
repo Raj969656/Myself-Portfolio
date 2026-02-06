@@ -123,7 +123,7 @@ export default function Hero() {
           {/* Buttons */}
        <div className="flex gap-4 mt-8 cursor-pointer">
  <a href="#projects">
-  <GlowButton><button className="cursor-pointer">View Work</button></GlowButton>
+  <GlowButton><span className="cursor-pointer">View Work</span></GlowButton>
 </a>
 <a href="#contact">
   <GlowButton><button className="cursor-pointer">Contact Me</button></GlowButton>
