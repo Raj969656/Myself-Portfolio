@@ -43,40 +43,41 @@ export default function About() {
               modern frameworks.
             </p>
 
-            {/* RESUME BUTTON (BEST POSITION) */}
-            <div className="mb-12">
-              <a
-                href="/public/Myy_Resume.pdf"
-                target="./public/Myy_Resume.pdf"
-                rel="noopener noreferrer"
-                className="
-                  inline-flex items-center gap-2
-                  px-6 py-3
-                  rounded-xl
-                  bg-purple-600 text-white
-                  font-medium
-                  hover:bg-purple-700
-                  transition-all duration-300
-                  shadow-lg shadow-purple-600/30
-                "
-              >
-                View Resume
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 5v14m7-7H5"
-                  />
-                </svg>
-              </a>
-            </div>
+           {/* RESUME BUTTON (BEST POSITION) */}
+<div className="mb-12">
+  <a
+    href="/Myy_Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      inline-flex items-center gap-2
+      px-6 py-3
+      rounded-xl
+      bg-purple-600 text-white
+      font-medium
+      hover:bg-purple-700
+      transition-all duration-300
+      shadow-lg shadow-purple-600/30
+    "
+  >
+    View Resume
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-4 h-4"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 5v14m7-7H5"
+      />
+    </svg>
+  </a>
+</div>
+
 
             {/* INFO CARDS */}
             <div className="grid sm:grid-cols-2 gap-6">
