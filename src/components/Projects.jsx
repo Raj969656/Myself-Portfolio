@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Expense Tracker",
     desc: "A mobile app for tracking money, expenses, and management.",
-    image: "/public/pp3.png",
+    image: "public/pp3.png",
     tech: ["React", "GraphQL", "MySQL", "Chart.js"],
     demo: "https://sweet-duckanoo-b3b3dc.netlify.app/",
     github: "https://github.com/Raj969656/BudgetBuddy",
