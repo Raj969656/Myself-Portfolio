@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  color: #e5e7eb;
+  background: #0b0b0e;
+}
+
+
+/* =======================
+   CARD GLOW (already OK)
+   ======================= */
+.glow-card {
+  position: relative;
+  background: #1a1a1d;
+  border-radius: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-card:hover {
+  box-shadow:
+    0 0 0 1px #a855f7,
+    0 0 30px rgba(168, 85, 247, 0.35);
+}
+
+/* =======================
+   RIPPLE (already OK)
+   ======================= */
+@keyframes ripple {
+  from {
+    transform: scale(0);
+    opacity: 0.6;
+  }
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  animation: ripple 0.6s ease-out;
+}
+
+/* =======================
+   FLOAT (PROFILE IMAGE)
+   ======================= */
+@layer utilities {
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+}
