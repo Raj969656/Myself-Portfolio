@@ -1,10 +1,10 @@
 export default function Skills() {
   return (
-    <section id="skills" className="py-28">
+    <section id="skills" className="py-20 md:py-28">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Heading */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-16 md:mb-20">
           <h2 className="text-3xl font-semibold">
             My <span className="text-purple-500">Skills</span>
           </h2>
@@ -13,8 +13,16 @@ export default function Skills() {
           </p>
         </div>
 
+        {/* SEO-ONLY TEXT (NO UI CHANGE) */}
+        <p className="sr-only">
+          Raj Yadav is a Full Stack MERN Developer with strong expertise in
+          React.js, Node.js, Express.js, MongoDB, REST APIs, frontend development,
+          backend development, database management, cloud deployment, and modern
+          web technologies.
+        </p>
+
         {/* Skills Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
 
           {/* Frontend */}
           <div className="glow-card p-6">
