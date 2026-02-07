@@ -2,19 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-    <!-- Google Analytics (GA4) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3NGBSSG0P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-Y3NGBSSG0P');
-</script>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- ✅ CRITICAL VIEWPORT FIX (STOPS AUTO ZOOM) -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+
+    <!-- ✅ SEO TITLE -->
+    <title>Raj Yadav | Full Stack Developer (MERN) Portfolio</title>
+
+    <!-- ✅ SEO DESCRIPTION -->
+    <meta
+      name="description"
+      content="Raj Yadav is a Full Stack MERN Developer specializing in React, Node.js, MongoDB, and modern web applications. Explore projects, skills, and experience."
+    />
+
+    <!-- ✅ SEO KEYWORDS (optional but fine) -->
+    <meta
+      name="keywords"
+      content="Raj Yadav, Full Stack Developer, MERN Developer, React Developer, Node.js, MongoDB, Portfolio"
+    />
+
+    <!-- ✅ AUTHOR -->
+    <meta name="author" content="Raj Yadav" />
+
+    <!-- ✅ OPEN GRAPH (LINK PREVIEW) -->
+    <meta property="og:title" content="Raj Yadav | Full Stack Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore projects and experience of Raj Yadav, a Full Stack MERN Developer."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://myself-portfolio-tbc3.vercel.app/" />
+    <meta property="og:image" content="/profile.jpg" />
+
+    <!-- ✅ TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Raj Yadav | Full Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Full Stack MERN Developer portfolio showcasing projects and skills."
+    />
+    <meta name="twitter:image" content="/profile.jpg" />
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3NGBSSG0P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Y3NGBSSG0P');
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
