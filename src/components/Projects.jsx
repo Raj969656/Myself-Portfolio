@@ -51,11 +51,11 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-28">
+    <section id="projects" className="py-20 md:py-28">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* SECTION HEADING */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-16 md:mb-20">
           <h2 className="text-3xl font-semibold">
             My <span className="text-purple-500">Projects</span>
           </h2>
@@ -64,8 +64,16 @@ export default function Projects() {
           </p>
         </div>
 
+        {/* SEO-ONLY TEXT (NO UI CHANGE) */}
+        <p className="sr-only">
+          These projects showcase the work of Raj Yadav, a Full Stack MERN
+          Developer, including real-world applications built using React,
+          Node.js, Express.js, MongoDB, REST APIs, authentication systems,
+          real-time features, and modern UI frameworks.
+        </p>
+
         {/* PROJECTS GRID */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {projects.map((p, i) => (
             <div
               key={i}
@@ -74,8 +82,13 @@ export default function Projects() {
               {/* IMAGE */}
               <img
                 src={p.image}
-                alt={p.title}
-                className="h-[180px] w-full object-cover"
+                alt={`${p.title} project by Raj Yadav`}
+                className="
+                  w-full
+                  h-[160px]
+                  sm:h-[180px]
+                  object-cover
+                "
               />
 
               {/* CONTENT */}
@@ -126,7 +139,7 @@ export default function Projects() {
         </div>
 
         {/* VIEW MORE */}
-        <div className="flex justify-center mt-16">
+        <div className="flex justify-center mt-12 md:mt-16">
           <a
             href="https://github.com/raj969656"
             target="_blank"
