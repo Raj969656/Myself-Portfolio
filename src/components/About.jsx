@@ -1,6 +1,8 @@
+import React from "react";
+
 export default function About() {
   return (
-    <section id="about" className="py-20 md:py-28">
+    <section id="about" className="py-28">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Heading */}
@@ -14,14 +16,14 @@ export default function About() {
         </div>
 
         {/* MAIN GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-[5fr_7fr] gap-12 md:gap-20 items-center">
+        <div className="grid md:grid-cols-[5fr_7fr] gap-20 items-center">
 
           {/* LEFT IMAGE */}
           <div className="flex justify-center">
             <img
               src="/my-photo.jpg"
-              alt="Raj Yadav full stack MERN developer portrait"
-              className="w-full max-w-[320px] sm:max-w-[380px] md:max-w-[420px] aspect-[4/5] object-cover rounded-2xl shadow-xl"
+              alt="About"
+              className="w-[420px] h-[520px] object-cover rounded-2xl shadow-xl"
             />
           </div>
 
@@ -36,14 +38,7 @@ export default function About() {
               creating digital solutions for businesses around the world.
               My journey started with basic HTML and CSS websites and
               evolved into building complex web applications using
-              modern frameworks such as React, Node.js, Express, and MongoDB.
-            </p>
-
-            {/* SEO-ONLY TEXT */}
-            <p className="sr-only">
-              Raj Yadav is a Full Stack MERN Developer skilled in React.js,
-              Node.js, MongoDB, Express.js, REST APIs, authentication systems,
-              and responsive web application development.
+              modern frameworks.
             </p>
 
             {/* RESUME BUTTON */}
@@ -70,6 +65,7 @@ export default function About() {
 
             {/* INFO CARDS */}
             <div className="grid sm:grid-cols-2 gap-6">
+
               <div className="glow-card p-6">
                 <h4 className="text-purple-400 font-medium mb-2">
                   Innovative
@@ -99,9 +95,10 @@ export default function About() {
                   practices and modern patterns.
                 </p>
               </div>
-            </div>
 
+            </div>
           </div>
+
         </div>
       </div>
     </section>
