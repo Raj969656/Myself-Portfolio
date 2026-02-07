@@ -32,18 +32,26 @@ const data = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-32">
-      <h2 className="text-center text-4xl font-bold mb-20">
+    <section id="experience" className="py-20 md:py-32">
+      <h2 className="text-center text-3xl md:text-4xl font-bold mb-16 md:mb-20">
         Work <span className="text-purple-500">Experience</span>
       </h2>
 
+      {/* SEO-ONLY TEXT (NO UI CHANGE) */}
+      <p className="sr-only">
+        Professional experience of Raj Yadav, a Full Stack MERN Developer,
+        including hands-on work with React.js, Node.js, MongoDB, Express.js,
+        REST APIs, authentication systems, and deployment on cloud platforms.
+      </p>
+
       <div className="max-w-3xl mx-auto relative">
-        {/* Timeline line */}
+
+        {/* Timeline line (DESKTOP ONLY) */}
         <motion.div
           initial={{ height: 0 }}
           whileInView={{ height: "100%" }}
           transition={{ duration: 1 }}
-          className="absolute left-[18px] top-0 w-[2px] bg-purple-500/70"
+          className="hidden md:block absolute left-[18px] top-0 w-[2px] bg-purple-500/70"
         />
 
         {data.map((item, i) => (
@@ -52,14 +60,24 @@ export default function Experience() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: i * 0.2 }}
-            className="relative pl-20 mb-14"
+            className="
+              relative
+              md:pl-20
+              mb-10 md:mb-14
+            "
           >
-            {/* Dot */}
+            {/* Dot (DESKTOP ONLY) */}
             <motion.span
               initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ delay: i * 0.2 }}
-              className="absolute left-[12px] top-6 w-3 h-3 rounded-full bg-purple-500"
+              className="
+                hidden md:block
+                absolute left-[12px] top-6
+                w-3 h-3
+                rounded-full
+                bg-purple-500
+              "
             />
 
             <div className="bg-[#1a1a1d] p-6 rounded-xl">
