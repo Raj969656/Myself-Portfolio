@@ -20,7 +20,7 @@ const projects = [
     desc: "A mobile app for tracking money, expenses, and management.",
     image: "/pp3.png",
     tech: ["React", "GraphQL", "MySQL", "Chart.js"],
-    demo: "https://sweet-duckanoo-b3b3dc.netlify.app/",
+    demo: "https://budgetbuddy96.netlify.app/",
     github: "https://github.com/Raj969656/BudgetBuddy",
   },
   {
