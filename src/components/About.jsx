@@ -44,7 +44,7 @@ export default function About() {
             {/* RESUME BUTTON */}
             <div className="mb-12">
               <a
-                href="/Myy_Resume.pdf"
+                href="/Myyy_resumee.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-purple-600 text-white font-medium hover:bg-purple-700 transition-all duration-300 shadow-lg shadow-purple-600/30"
